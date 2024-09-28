@@ -8,6 +8,8 @@ Stable tag: 1.0.0
 License: GPL-2.0-or-later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+A simple plugin to customize the "Thank You" message displayed on the WooCommerce checkout page.
+
 == Description ==
 ShopXpert allows you to customize the "Thank You" message displayed on the WooCommerce checkout page. With options for color, font size, and text alignment, you can enhance the shopping experience for your customers.
 

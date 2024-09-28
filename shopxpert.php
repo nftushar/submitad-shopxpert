@@ -15,6 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
+
 // Define plugin constants.
 define( 'SHOPXPERT_VERSION', '1.0.0' );
 define( 'SHOPXPERT_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
@@ -25,8 +26,12 @@ if ( is_admin() ) {
     require_once SHOPXPERT_PLUGIN_DIR . 'includes/admin-settings.php';
 }
 
+
+ 
+
+
 // Register activation hook.
-function shopxpert_activate() {
+function shopxpert_plugin_activate() {
     // Ensure user has proper capability.
     if ( ! current_user_can( 'activate_plugins' ) ) {
         return;
@@ -38,7 +43,7 @@ function shopxpert_activate() {
     add_option( 'shopxpert_thank_you_font_size', '16px' );
     add_option( 'shopxpert_thank_you_text_align', 'center' );
 }
-register_activation_hook( __FILE__, 'shopxpert_activate' );
+register_activation_hook( __FILE__, 'shopxpert_plugin_activate' );
 
 // Register deactivation hook.
 function shopxpert_deactivate() {
