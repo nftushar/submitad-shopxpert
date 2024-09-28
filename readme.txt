@@ -1,59 +1,49 @@
 === ShopXpert ===
-Contributors: NF Tushar
-Tags: wooCommerce, thank you message, custom message, checkout
-Requires at least: 5.6
-Tested up to: 6.6
+Contributors: nftushar
+Tags: woocommerce, thank you message, customization, color picker, settings
+Requires at least: 5.0
 Requires PHP: 7.0
+Tested up to: 6.6
 Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
-== Short Description ==
-
-Customize the "Thank You" message on your WooCommerce checkout page with options for text color, font size, and alignment.
+License: GPL-2.0-or-later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-
-ShopXpert is a WooCommerce plugin that allows you to customize the "Thank You" message displayed on the checkout page. With ShopXpert, you can add custom text or HTML, and control its color, font size, and position.
-
-== Features ==
-
-* Add a custom message or HTML snippet to the "Thank You" page.
-* Customize the text color with a color picker.
-* Adjust the font size.
-* Choose the text alignment (left, center, right).
-* User-friendly admin settings page.
+ShopXpert allows you to customize the "Thank You" message displayed on the WooCommerce checkout page. With options for color, font size, and text alignment, you can enhance the shopping experience for your customers.
 
 == Installation ==
-
-1. Upload the `shopxpert` folder to the `/wp-content/plugins/` directory.
+1. Upload the entire `shopxpert` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to WooCommerce > Thank You Message Customizer to configure your settings.
 
 == Frequently Asked Questions ==
 
-= How do I change the "Thank You" message? =
+= How do I customize the thank you message? =
+You can customize the message by navigating to WooCommerce > Thank You Message Customizer in your WordPress admin panel.
 
-Go to WooCommerce > Thank You Message Customizer. Enter your custom message or HTML snippet in the provided textarea. You can also set the text color, font size, and alignment.
+= Can I use HTML in the thank you message? =
+Yes, you can include basic HTML in the thank you message. It will be sanitized for security.
 
-= Can I use HTML in the "Thank You" message? =
-
-Yes, you can use HTML to format your message. Make sure to use valid HTML tags and avoid using scripts.
-
-= Why is my custom message not showing? =
-
-Ensure that you have configured the plugin settings correctly and that the message is not empty. Check if any other plugins or theme settings are overriding the "Thank You" message display.
+= Will this plugin affect my site's performance? =
+ShopXpert is designed to have minimal impact on performance, but always ensure to test changes on a staging environment.
 
 == Changelog ==
+= 1.0.0 =
+* Initial release of ShopXpert.
 
-= 1.1 =
-* Added color picker for text color customization.
-* Added options for font size and text alignment.
-
-= 1.0 =
-* Initial release with custom "Thank You" message functionality.
+== Upgrade Notice ==
+= 1.0.0 =
+This is the first version of the plugin. Please update to enjoy the features of ShopXpert.
 
 == Screenshots ==
+1. Screenshot of the admin settings page.
+2. Example of the customized thank you message on the checkout page.
 
-1. Settings page for the "Thank You" Message Customizer.
-2. Example of a customized "Thank You" message on the checkout page.
+== Additional Information ==
+For any inquiries or feature requests, please reach out via the plugin support forum on WordPress.org or check the plugin's GitHub repository at [https://github.com/nftushar/shopxpert](https://github.com/nftushar/shopxpert).
+
+== Acknowledgements ==
+Thank you to the WordPress community for their contributions and support.
+
+== License ==
+This plugin is licensed under the GPL-2.0-or-later license. See LICENSE for more information.
